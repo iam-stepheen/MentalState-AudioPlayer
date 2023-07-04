@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "mini-brainfm",
+    "slug": "mini-brainfm",
+    "extra": {
+      "eas": {
+        "projectId": "12aad378-197d-4a63-ad68-5bda77c31e7c"
+      }
+    },
+    "android": {
+      "package": "com.stevinc.minibrainfm"
+    },
+    "ios": {
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "com.stevinc.minibrainfm"
+    }
+  }
+}
